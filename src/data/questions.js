@@ -238,5 +238,185 @@ export const questions = [
         ],
         answer: "rem",
         category: "CSS"
+    },
+    {
+        id: 21,
+        question: "What is the purpose of the 'key' prop in React lists?",
+        options: [
+            "To style list items",
+            "To help React identify which items have changed",
+            "To set the list order",
+            "To add animations"
+        ],
+        answer: "To help React identify which items have changed",
+        category: "React"
+    },
+    {
+        id: 22,
+        question: "Which CSS property is used to make text bold?",
+        options: [
+            "font-weight",
+            "text-weight",
+            "bold",
+            "font-style"
+        ],
+        answer: "font-weight",
+        category: "CSS"
+    },
+    {
+        id: 23,
+        question: "What does 'DOM' stand for?",
+        options: [
+            "Document Object Model",
+            "Data Object Model",
+            "Dynamic Object Model",
+            "Display Object Model"
+        ],
+        answer: "Document Object Model",
+        category: "HTML/JS"
+    },
+    {
+        id: 24,
+        question: "In Vue.js, what is the lifecycle hook called when a component is mounted?",
+        options: [
+            "created",
+            "mounted",
+            "beforeMount",
+            "updated"
+        ],
+        answer: "mounted",
+        category: "Vue.js"
+    },
+    {
+        id: 25,
+        question: "Which React hook is used to access context values?",
+        options: [
+            "useContext",
+            "useState",
+            "useEffect",
+            "useReducer"
+        ],
+        answer: "useContext",
+        category: "React"
+    },
+    {
+        id: 26,
+        question: "What is the CSS property for controlling the space between lines of text?",
+        options: [
+            "line-height",
+            "text-spacing",
+            "letter-spacing",
+            "word-spacing"
+        ],
+        answer: "line-height",
+        category: "CSS"
+    },
+    {
+        id: 27,
+        question: "Which HTML tag is used to create a hyperlink?",
+        options: [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+        ],
+        answer: "<a>",
+        category: "HTML/JS"
+    },
+    {
+        id: 28,
+        question: "In Vue.js, how do you bind a class conditionally?",
+        options: [
+            ":class",
+            "v-class",
+            "class",
+            "bind-class"
+        ],
+        answer: ":class",
+        category: "Vue.js"
+    },
+    {
+        id: 29,
+        question: "What is the difference between 'let' and 'const' in JavaScript?",
+        options: [
+            "'let' is for numbers, 'const' is for strings",
+            "'let' can be reassigned, 'const' cannot",
+            "'let' is global, 'const' is local",
+            "'let' is for arrays, 'const' is for objects"
+        ],
+        answer: "'let' can be reassigned, 'const' cannot",
+        category: "HTML/JS"
+    },
+    {
+        id: 30,
+        question: "Which CSS property is used to create rounded corners?",
+        options: [
+            "border-radius",
+            "corner-radius",
+            "round-corners",
+            "border-corner"
+        ],
+        answer: "border-radius",
+        category: "CSS"
+    },
+    {
+        id: 31,
+        question: "What is a React Fragment?",
+        options: [
+            "A way to group elements without adding extra DOM nodes",
+            "A type of component state",
+            "A lifecycle method",
+            "A routing component"
+        ],
+        answer: "A way to group elements without adding extra DOM nodes",
+        category: "React"
+    },
+    {
+        id: 32,
+        question: "In Vue.js, what directive is used for conditional rendering?",
+        options: [
+            "v-show",
+            "v-if",
+            "v-render",
+            "v-condition"
+        ],
+        answer: "v-if",
+        category: "Vue.js"
+    },
+    {
+        id: 33,
+        question: "What is the purpose of the 'alt' attribute in an <img> tag?",
+        options: [
+            "To set the image size",
+            "To provide alternative text for screen readers",
+            "To link to another page",
+            "To style the image"
+        ],
+        answer: "To provide alternative text for screen readers",
+        category: "HTML/JS"
+    },
+    {
+        id: 34,
+        question: "Which CSS property controls the stacking order of elements?",
+        options: [
+            "z-index",
+            "stack-order",
+            "layer-index",
+            "position-order"
+        ],
+        answer: "z-index",
+        category: "CSS"
+    },
+    {
+        id: 35,
+        question: "What is the React equivalent of Vue's computed properties?",
+        options: [
+            "useMemo",
+            "useCallback",
+            "useEffect",
+            "useState"
+        ],
+        answer: "useMemo",
+        category: "React"
     }
 ];

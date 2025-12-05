@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Result = ({ score, totalQuestions, onRestart }) => {
     const percentage = (score / totalQuestions) * 100;
@@ -18,6 +18,12 @@ const Result = ({ score, totalQuestions, onRestart }) => {
         message = 'Keep Learning!';
         emoji = '📚';
     }
+
+    useEffect(() => {
+        const savedScores = JSON.parse(localStorage.getItem('quizScores')) || [];
+        savedScores.push({ score, totalQuestions, percentage, date: new Date().toISOString() });
+        localStorage.setItem('quizScores', JSON.stringify(savedScores));
+    }, [score, totalQuestions, percentage]);
 
     return (
         <div className="result-card">
